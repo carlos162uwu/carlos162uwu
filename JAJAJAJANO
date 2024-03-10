@@ -1,0 +1,14 @@
+import openai 
+openai.api_key = "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"
+
+
+while True:
+
+prompt = input("\nIntroduce una pregunta: ")
+
+if prompt = "exit":
+break
+
+completion = openai.Completion.create(engine="text-davinci-003", prompt=prompt, max_tokens=2048)
+
+Completion.choices[0].text).
